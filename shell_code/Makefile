@@ -1,0 +1,2 @@
+all:
+	gcc -Wall shellcode.c code_pwd.c perm_check.c code_pinfo.c code_ls.c code_exit.c code_echo.c code_cd.c parse_input.c pwd.c code_redirect.c var_set.c var_unset.c execute_pipe_n_r.c execute_pipe.c rm_space.c rm_t_space.c -o shell
